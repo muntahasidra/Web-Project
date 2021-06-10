@@ -1,0 +1,42 @@
+body
+{
+	margin:0;
+	padding:0;
+	
+	background-size:cover;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../11.jpg);
+color:#fff;
+	
+	
+}
+
+a
+{
+	color:yellow;
+	font-family:Tohoma,Geneva,sans-serif;
+	margin-left:30px;
+}
+
+.cong{
+	background:rgba(44,62,80,0.6);
+			padding:40px;
+			width:240px;
+			margin:auto;
+			margin-top:120px;
+			height:200px;
+			margin-left:450px;
+			
+}
+h2
+
+{
+	margin-top:50px;
+		
+			margin-left:10px;
+}
+
+
+
+
+
+	

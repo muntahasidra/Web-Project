@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Stay and Dine</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-32x32/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+<div class="background">
+<div class="main">
+<div class="logo">
+<img src="logo.jpg">
+</div>
+
+<ul>
+
+<li class="active><a href="#">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="book.html">Book</a></li>
+</ul>
+</div>
+<br><br><br>
+<br><br><br>
+
+
+ 
+
+
+
+<center><h1>STAY AND DINE HOTEL<h1></center>
+<br>
+ <center>   
+
+<a href="loginform.html" class="btn">LOGIN</a>
+<a href="registerationform.html" class="btn">REGISTER</a>
+
+</center>
+
+<br>
+
+
+
+  
+  
+
+   <div class="slider">
+
+    <div id="img">
+      <img src="e.jpg">
+    </div>
+
+  </div>
+  
+
+	<br>
+  
+ <center><h2>WELCOME TO STAY AND DINE HOTEL</h2></center>
+<hr>
+  <br>
+
+<p>
+   Located in Rawalpindi, the enigmatic city of Pakistan which sits on the beautiful Pothohar region.Stay And Dine Hotel is perched along the main Stadium road in the heart of central Rawalpindi, with the capital city just a few kilometers away, you can have easy access to bustling shopping areas and calm environment of Islamabad from one place.
+  
+  
+   It's a contrast that perfectly sums up our evolving city: ancient, 
+   modern and a little daring, all at once. Join us for a three course meal, followed by a relaxing treatment in our comfortable spacious rooms, 
+   then come discover twin cities with us.
+  </p>
+ <br>
+ <br>
+ <br>
+ <br>
+ </div>
+ 
+ 
+ <footer>
+<center>
+<br>
+<br>
+<div class="footerlogo">
+<img src="fflogo.jpg">
+</div>
+<br>
+
+<p>
+PD 434,Cricket Stadium Road Rawalpindi<br>
+Phone:+923441187598<br>Email:stayndinehotel@gmail.com<p>
+<p>Follow us and give feedbacks on:<p>
+<p>
+
+Facebook: Stay and Dine Hotel<br>
+Twitter: stay_&_dine <br>
+Instagram:stay.dine.rooms_123 
+<p>
+</center>
+<br><br>
+
+</footer>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <script>
+
+    var images = ['e.jpg', 'f.jpg' ,'h.jpg'];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 3000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+    }
+
+
+  </script>
+
+
+ 
+
+
+
+
+
+</body>
+</html>

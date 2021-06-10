@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="css/loginstyle.css" >
+
+
+ <script language="JavaScript">
+
+
+function check(form)
+{
+ var tf = document.forms["myForm"]["username"].value;
+ var rc = document.forms["myForm"]["pass"].value;
+ 
+ if(tf == "")
+  {
+   alert("Please input your name."); 
+   
+   return false;
+  }
+  if(rc == "")
+  {
+   alert("Please input your password."); 
+   
+   return false;
+  }
+  
+alert("Congratulations you Login successfully!!!");
+
+
+ 
+ return true;
+}
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="loginbox">
+<form id="myform" method="get">
+<h2>Log In</h2>
+
+
+
+<input type="text" placeholder="Username" name="username" value=""><br><br>
+
+
+<input type="password" placeholder="Password" name="pass" value=""><br><br><br>
+<a href="staydine.html"><input type="button" name="" value="Log in" onclick="check()"></a><br><br>
+
+<a href="staydine.html">Go back to Home page</a>
+<br><br><br><br>
+Don't have account?<a href="registerationform.html">&nbsp;Register</a>
+</form>
+
+</body>
+</html>

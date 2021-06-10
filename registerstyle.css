@@ -1,0 +1,255 @@
+/*body
+{
+	margin:0;
+	padding:0;
+	font-family:Tohoma,Geneva,sans-serif;
+	background-size:cover;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../11.jpg);
+color:#fff;
+	
+	
+}
+.registeration{
+		background:rgba(44,62,80,0.6);
+			padding:40px;
+			width:250px;
+			margin:auto;
+			margin-top:80px;
+			height:450px;
+			margin-left:450px;
+		
+}
+form{
+	width:240px;
+	text-align:center;
+}
+input
+{
+	width:240px;
+	text-align:center;
+	background:Transparent;
+	border:none;
+	border-bottom: 1px solid #fff;
+	font-family:'Play', sans-serif;
+	font-size:16px;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border 0.5s;
+	outline: none;
+	color:#fff;
+
+}
+h2{
+	color:#fff;
+}
+
+a
+{
+	color:yellow;
+	text-decoration:blink;
+}
+
+a:hover{
+	color:skyblue;
+}
+
+
+
+::placeholder{
+	color:aliceblue;
+	opacity:0.8;
+}
+	
+*/
+
+
+
+
+
+
+
+
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Tohoma,Geneva,sans-serif;
+	background-size:cover;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../11.jpg);
+color:#fff;
+	
+	
+}
+.registeration{
+		background:rgba(44,62,80,0.6);
+			padding:40px;
+			width:250px;
+			margin:auto;
+			margin-top:60px;
+			height:480px;
+			margin-left:500px;
+		
+}
+
+form{
+	width:240px;
+	text-align:center;
+}
+input
+{
+	width:240px;
+	text-align:center;
+	background:Transparent;
+	border:none;
+	border-bottom: 1px solid #fff;
+	font-family:'Play', sans-serif;
+	font-size:16px;
+	font-weight:200px;
+	padding:10px 0;
+	transition:border 0.5s;
+	outline: none;
+	color:#fff;
+
+}
+input[type=button]
+{
+	width:190px;
+	
+	background:white;
+	border:none;
+	color:#000;
+   font-size:16px;
+    padding:10px 0;
+    line-height:25px;
+    border-radius:15px;
+     cursor:pointer;
+}
+input[type=button]:hover
+{
+	background-color:black;
+color:white;
+}
+
+
+
+
+h2{
+	
+	
+color:#fff;
+}
+
+
+a
+{
+	color:yellow;
+	text-decoration:blink;
+}
+
+a:hover{
+	color:skyblue;
+}
+
+
+
+::placeholder{
+	color:aliceblue;
+	opacity:0.8;
+}
+	
+
+input[type=submit]
+{
+	width:190px;
+	
+	background:white;
+	border:none;
+	color:#000;
+   font-size:16px;
+    padding:10px 0;
+    line-height:25px;
+    border-radius:15px;
+     cursor:pointer;
+}
+input[type=submit]:hover
+{
+	background-color:black;
+color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.loginbox h1{
+	float:left;
+	font-size:40px;
+	border-bottom:6px solid #313030;
+	margin-bottom:50px;
+	padding:13px 0;
+}
+.textbox{
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	margin:8px 0;
+	padding:8px 0;
+	
+	border-bottom:1px solid #313030;
+}
+.textbox i{
+	width:26px;
+	float:left;
+	text-align:center;
+}
+	
+
+
+
+.textbox input{
+	border:none;
+	outline:none;
+	background:none;
+	color :white;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin:0 10px;
+}
+.btn{
+	
+
+width:100%;
+background:none;
+color:white;
+padding:5px;
+font-size:18px;
+border :3px solid #313030;
+cursor:pointer;
+margin: 12px 0;
+}
+*/
+
+
+
+
+
+
+
+
+
